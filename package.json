@@ -2,27 +2,27 @@
     "name": "pkg-name",
     "version": "0.0.0",
     "description": "",
-    "homepage": "https://github.com/unnb/pkg-name#readme",
+    "homepage": "https://github.com/zhaojiakuncn/pkg-name#readme",
     "bugs": {
-        "url": "https://github.com/unnb/pkg-name/issues"
+        "url": "https://github.com/zhaojiakuncn/pkg-name/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unnb/pkg-name.git"
+        "url": "git+https://github.com/zhaojiakuncn/pkg-name.git"
     },
     "license": "MIT",
-    "author": "Wythe <seclusion.life@outlook.com>",
+    "author": "Jiakun Zhao <zhaojiakun.cn@outlook.com>",
     "type": "module",
     "files": [
         "dist"
     ],
     "eslintConfig": {
-        "extends": "@unnb"
+        "extends": "@zhaojiakuncn"
     },
     "devDependencies": {
         "@types/node": "^18.11.18",
-        "@unnb/eslint-config": "^0.1.2",
-        "eslint": "^8.32.0",
+        "@zhaojiakuncn/eslint-config": "^0.1.2",
+        "eslint": "^8.33.0",
         "esno": "^0.16.3",
         "typescript": "^4.9.4"
     }
