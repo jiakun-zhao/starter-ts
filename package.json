@@ -2,28 +2,28 @@
     "name": "pkg-name",
     "version": "0.0.0",
     "description": "",
-    "homepage": "https://github.com/zhaojiakuncn/pkg-name#readme",
+    "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
     "bugs": {
-        "url": "https://github.com/zhaojiakuncn/pkg-name/issues"
+        "url": "https://github.com/jiakun-zhao/pkg-name/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhaojiakuncn/pkg-name.git"
+        "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
     },
     "license": "MIT",
-    "author": "Jiakun Zhao <zhaojiakun.cn@icloud.com>",
+    "author": "Jiakun Zhao <jiakun.zhao@icloud.com>",
     "type": "module",
     "files": [
         "dist"
     ],
     "eslintConfig": {
-        "extends": "@zhaojiakuncn"
+        "extends": "@jiakun-zhao"
     },
     "devDependencies": {
+        "@jiakun-zhao/eslint-config": "^0.1.2",
         "@types/node": "^18.11.18",
-        "@zhaojiakuncn/eslint-config": "^0.1.2",
         "eslint": "^8.33.0",
         "esno": "^0.16.3",
-        "typescript": "^4.9.4"
+        "typescript": "^4.9.5"
     }
 }
