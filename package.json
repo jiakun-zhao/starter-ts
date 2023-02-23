@@ -11,7 +11,7 @@
         "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
     },
     "license": "MIT",
-    "author": "Jiakun Zhao <jiakun.zhao@icloud.com>",
+    "author": "Jiakun Zhao <jiakun.zhao@outlook.com>",
     "type": "module",
     "eslintConfig": {
         "extends": "@jiakun-zhao"
