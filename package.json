@@ -27,7 +27,8 @@
         "dist"
     ],
     "scripts": {
-        "build": "unbuild"
+        "build": "unbuild",
+        "dev": "esno src/index.ts"
     },
     "eslintConfig": {
         "extends": "@jiakun-zhao"
