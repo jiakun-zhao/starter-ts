@@ -34,7 +34,7 @@
     "extends": "@jiakun-zhao"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^0.0.7",
+    "@jiakun-zhao/eslint-config": "^0.0.9",
     "@types/node": "^20.1.7",
     "eslint": "^8.40.0",
     "esno": "^0.16.3",
