@@ -1,4 +1,7 @@
+/* eslint-disable no-console */
+
 export function sayHello() {
-    // eslint-disable-next-line no-console
-    console.log('Hello~')
+  console.log('Hello~')
 }
+
+console.log('Hello~')

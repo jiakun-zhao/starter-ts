@@ -1,44 +1,44 @@
 {
-    "name": "pkg-name",
-    "version": "0.0.0",
-    "description": "",
-    "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
-    "bugs": {
-        "url": "https://github.com/jiakun-zhao/pkg-name/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
-    },
-    "license": "MIT",
-    "author": "Jiakun Zhao <hi@zhaojiakun.com>",
-    "type": "module",
-    "exports": {
-        ".": {
-            "import": "./dist/index.mjs",
-            "require": "./dist/index.cjs",
-            "types": "./dist/index.d.ts"
-        }
-    },
-    "main": "./dist/index.cjs",
-    "module": "./dist/index.mjs",
-    "types": "./dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "unbuild",
-        "dev": "esno src/index.ts"
-    },
-    "eslintConfig": {
-        "extends": "@jiakun-zhao"
-    },
-    "devDependencies": {
-        "@jiakun-zhao/eslint-config": "^0.0.5",
-        "@types/node": "^18.15.13",
-        "eslint": "^8.39.0",
-        "esno": "^0.16.3",
-        "typescript": "^5.0.4",
-        "unbuild": "^1.2.1"
+  "name": "pkg-name",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/jiakun-zhao/pkg-name#readme",
+  "bugs": {
+    "url": "https://github.com/jiakun-zhao/pkg-name/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiakun-zhao/pkg-name.git"
+  },
+  "license": "MIT",
+  "author": "Jiakun Zhao <hi@zhaojiakun.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
     }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "esno src/index.ts"
+  },
+  "eslintConfig": {
+    "extends": "@jiakun-zhao"
+  },
+  "devDependencies": {
+    "@jiakun-zhao/eslint-config": "^0.0.7",
+    "@types/node": "^20.1.7",
+    "eslint": "^8.40.0",
+    "esno": "^0.16.3",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
+  }
 }
