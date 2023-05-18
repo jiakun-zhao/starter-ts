@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@jiakun-zhao/eslint-config':
-    specifier: ^0.0.9
-    version: 0.0.9(eslint@8.40.0)(typescript@5.0.4)
+    specifier: ^0.0.11
+    version: 0.0.11(eslint@8.40.0)(typescript@5.0.4)
   '@types/node':
     specifier: ^20.1.7
     version: 20.1.7
@@ -804,8 +804,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@jiakun-zhao/eslint-config@0.0.9(eslint@8.40.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-PKgtbFvbTxzNOM3Xsxsi0iEdZ7t8ldvHHludkUzgVz8CicLVaIOhmu9eA5PJkzxTnhOVZXEF5BVm9hbV5re8cg==}
+  /@jiakun-zhao/eslint-config@0.0.11(eslint@8.40.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-rl9C8jNpzvbKMPlTr0UH7G6xi2r6pXUwMpMOg8cW7MmzEHikV9ZnE3CKzii4ek4LnNY9QQxFpf99Kkyq+kUk7A==}
     peerDependencies:
       eslint: '>=7.4.0'
     dependencies:
