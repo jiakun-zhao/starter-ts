@@ -1,20 +1,23 @@
-import antfu from '@antfu/eslint-config'
+import defineConfig from '@antfu/eslint-config'
 
-export default antfu({
+export default defineConfig({
   stylistic: {
     overrides: {
+      'no-console': 'warn',
+      'style/brace-style': ['warn', '1tbs'],
+      // typescript
+      'ts/ban-ts-comment': 'off',
+      // unused-imports
+      'unused-imports/no-unused-imports': 'warn',
+      // jsx
+      'style/jsx-quotes': ['off', 'prefer-single'],
       'style/jsx-one-expression-per-line': 'off',
     },
   },
-  typescript: {
-    overrides: {
-      'ts/ban-ts-comment': 'off',
-    },
-  },
-  vue: {
-    overrides: {
-      'vue/html-self-closing': 'off',
-      'vue/singleline-html-element-content-newline': 'off',
-    },
-  },
+  // vue: {
+  //   overrides: {
+  //     'vue/html-self-closing': 'off',
+  //     'vue/singleline-html-element-content-newline': 'off',
+  //   },
+  // },
 })
