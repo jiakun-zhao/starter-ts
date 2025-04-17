@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
+    "esModuleInterop": true,
     "lib": [
       "ESNext"
     ],
     "module": "ESNext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "target": "ES2018"
   },
   "exclude": [
-    "node_modules",
     "dist",
-    "eslint.config.mjs"
+    "eslint.config.mjs",
+    "node_modules"
   ]
 }
