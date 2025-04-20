@@ -28,16 +28,19 @@
   "scripts": {
     "build": "unbuild",
     "dev": "tsx src/index.ts",
+    "oxlint-migrate": "pnpm dlx @oxlint/migrate",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && pnpm publish && npx cnpm sync @jiakun-zhao/pkg-name",
     "stub": "unbuild --stub",
     "test": "vitest"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^4.0.2",
+    "@jiakun-zhao/eslint-config": "^4.0.10",
     "@types/node": "^22.14.1",
     "bumpp": "^10.1.0",
-    "eslint": "^9.24.0",
+    "eslint": "^9.25.0",
+    "eslint-plugin-oxlint": "^0.16.6",
+    "oxlint": "^0.16.6",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
