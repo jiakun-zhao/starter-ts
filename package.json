@@ -28,7 +28,7 @@
   "scripts": {
     "build": "unbuild",
     "dev": "tsx src/index.ts",
-    "oxlint-migrate": "pnpm dlx @oxlint/migrate",
+    "oxlint-migrate": "migrate && rm -rf .oxlintrc.json.bak",
     "prepublishOnly": "pnpm build",
     "release": "bumpp && pnpm publish && npx cnpm sync @jiakun-zhao/pkg-name",
     "stub": "unbuild --stub",
