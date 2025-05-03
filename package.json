@@ -35,10 +35,11 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@jiakun-zhao/eslint-config": "^4.1.2",
+    "@jiakun-zhao/eslint-config": "^4.1.3",
+    "@oxlint/migrate": "^0.16.8",
     "@types/node": "^22.15.3",
     "bumpp": "^10.1.0",
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "eslint-plugin-oxlint": "^0.16.8",
     "oxlint": "^0.16.8",
     "tsx": "^4.19.4",
